@@ -12,7 +12,7 @@ export default class Inicio extends Component{
                 </View>
 
                 <View style={styles.menu_inicio}>
-                    <TouchableOpacity style={styles.menu_inicio} onPress={() => this.props.navigation.navigate('Entrar')}>
+                    <TouchableOpacity style={styles.menu_inicio} onPress={() => this.props.navigation.navigate('Entrar')} >
                         <Icon size={25} color="#c4c4c4" name="user" />
                         <Text>Entrar</Text>
                     </TouchableOpacity>

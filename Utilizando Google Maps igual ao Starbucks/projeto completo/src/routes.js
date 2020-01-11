@@ -3,16 +3,12 @@ import {View, StyleSheet} from 'react-native';
 
 import {createAppContainer} from 'react-navigation';
 import {CreateMaterialTopTabNavigator, createMaterialTopTabNavigator} from 'react-navigation-tabs';
-import { createStackNavigator} from "react-navigation-stack";
 import Icon from 'react-native-vector-icons/AntDesign';
 
 import Inicio from './pages/inicio';
 import Cards from './pages/cards';
 import Lojas from './pages/lojas';
 import Configuracoes from './pages/configuracoes';
-
-import Entrar from './pages/entrar';
-import Mensagens from './pages/mensagens';
 
 
 export default class Routes extends Component{
@@ -34,29 +30,13 @@ const styles = StyleSheet.create({
     }
 });
 
-const inicioStack = createStackNavigator({
-    Inicio: {
-        screen: Inicio,
-        navigationOptions: {
-            title: 'Inicio',
-            header: null
-          },
-    },
-    Entrar: {
-        screen: Entrar,
-        navigationOptions: {
-            title: 'Inicio',
-            header: null 
-          },
-    },
-    Mensagens: Mensagens
-});
+
 
 const AppTabNavigator = createAppContainer(
     createMaterialTopTabNavigator(
         {
             Inicio:{
-                screen: inicioStack,
+                screen: Inicio,
                 navigationOptions:{
                     tabBarIcon: ({focused}) => {
                         if(focused){
