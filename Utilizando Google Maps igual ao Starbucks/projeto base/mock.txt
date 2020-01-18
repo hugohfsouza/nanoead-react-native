@@ -1,0 +1,11 @@
+[
+    {
+        "latitude": -23.423845,
+    	"longitude": -51.923965,
+        "endereco":"rua jose, 1234"
+    }, {
+        "latitude": -23.421915,
+        "longitude": -51.926401,
+        "endereco":"rua joao, 1234"
+    }
+]
