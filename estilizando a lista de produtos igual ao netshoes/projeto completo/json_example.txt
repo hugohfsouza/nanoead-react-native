@@ -1,0 +1,19 @@
+[{
+    	"nome": "Tênis de Caminhada Leve Confortável",
+		"frete": "FRETE GRATIS",
+		"preco": "129,00",
+		"image": "http://static.netshoes.com.br\/produtos/tenis-de-caminhada-leve-confortavel/06/E74-0492-006/E74-0492-006_zoom1.jpg"
+	},
+	{
+		"nome": "Tênis de Caminhada Leve Confortável",
+		"frete": "FRETE GRATIS",
+		"preco": "99,90",
+		"image": "http://static.netshoes.com.br\/produtos/tenis-de-caminhada-leve-confortavel/06/E74-0492-006/E74-0492-006_zoom1.jpg"
+	},
+	{
+		"nome": "Tênis de Caminhada Leve Confortável",
+		"frete": "FRETE GRATIS",
+		"preco": "89,90",
+		"image": "http://static.netshoes.com.br\/produtos/tenis-de-caminhada-leve-confortavel/06/E74-0492-006/E74-0492-006_zoom1.jpg"
+	}
+]
